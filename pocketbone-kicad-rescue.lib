@@ -1,172 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_01x04
+# +3.3V-
 #
-DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x10
-#
-DEF Connector_Generic:Conn_01x10 J 0 40 Y N 1 F N
-F0 "J" 0 500 50 H V C CNN
-F1 "Connector_Generic:Conn_01x10" 0 -600 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -495 0 -505 1 1 6 N
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 405 0 395 1 1 6 N
-S -50 450 50 -550 1 1 10 f
-X Pin_1 1 -200 400 150 R 50 50 1 1 P
-X Pin_10 10 -200 -500 150 R 50 50 1 1 P
-X Pin_2 2 -200 300 150 R 50 50 1 1 P
-X Pin_3 3 -200 200 150 R 50 50 1 1 P
-X Pin_4 4 -200 100 150 R 50 50 1 1 P
-X Pin_5 5 -200 0 150 R 50 50 1 1 P
-X Pin_6 6 -200 -100 150 R 50 50 1 1 P
-X Pin_7 7 -200 -200 150 R 50 50 1 1 P
-X Pin_8 8 -200 -300 150 R 50 50 1 1 P
-X Pin_9 9 -200 -400 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:C_Small
-#
-DEF Device:C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device:C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:D
-#
-DEF Device:D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device:D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:D_Small
-#
-DEF Device:D_Small D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "Device:D_Small" -150 -80 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:R
-#
-DEF Device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Interface_CAN_LIN:TJA1051TK-3
-#
-DEF Interface_CAN_LIN:TJA1051TK-3 U 0 40 Y Y 1 F N
-F0 "U" -400 350 50 H V L CNN
-F1 "Interface_CAN_LIN:TJA1051TK-3" 50 350 50 H V L CNN
-F2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" 0 -500 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DFN*1EP*3x3mm*P0.65mm*
-$ENDFPLIST
-DRAW
-S -400 300 400 -300 0 1 10 f
-X TXD 1 -500 200 100 R 50 50 1 1 I
-X GND 2 0 -400 100 U 50 50 1 1 W
-X VCC 3 0 400 100 D 50 50 1 1 W
-X RXD 4 -500 100 100 R 50 50 1 1 O
-X VIO 5 -500 -100 100 R 50 50 1 1 W
-X CANL 6 500 -100 100 L 50 50 1 1 B
-X CANH 7 500 100 100 L 50 50 1 1 B
-X S 8 -500 -200 100 R 50 50 1 1 I
-X GND 9 100 -400 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# pocketbone-kicad-rescue:+3.3V-
-#
-DEF pocketbone-kicad-rescue:+3.3V- #PWR 0 0 Y Y 1 F P
+DEF +3.3V- #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "pocketbone-kicad-rescue:+3.3V-" 0 140 50 H V C CNN
+F1 "+3.3V-" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -177,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:+5V-
+# +5V-
 #
-DEF pocketbone-kicad-rescue:+5V- #PWR 0 0 Y Y 1 F P
+DEF +5V- #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "pocketbone-kicad-rescue:+5V-" 0 140 50 H V C CNN
+F1 "+5V-" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -192,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:24LC32AT-I_OT-
+# 24LC32AT-I_OT-
 #
-DEF pocketbone-kicad-rescue:24LC32AT-I_OT- U 0 40 Y Y 1 F N
+DEF 24LC32AT-I_OT- U 0 40 Y Y 1 F N
 F0 "U" -200 250 50 H V C CNN
-F1 "pocketbone-kicad-rescue:24LC32AT-I_OT-" 0 -250 50 H V C CNN
+F1 "24LC32AT-I_OT-" 0 -250 50 H V C CNN
 F2 "SOT-23-5" 0 -150 50 H V C CIN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -213,11 +52,11 @@ X WP 5 -400 -50 150 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:CONN_01X10-
+# CONN_01X10-
 #
-DEF pocketbone-kicad-rescue:CONN_01X10- P 0 40 Y N 1 F N
+DEF CONN_01X10- P 0 40 Y N 1 F N
 F0 "P" 0 550 50 H V C CNN
-F1 "pocketbone-kicad-rescue:CONN_01X10-" 100 0 50 V V C CNN
+F1 "CONN_01X10-" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -251,11 +90,11 @@ X P9 9 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:CONN_02X02-
+# CONN_02X02-
 #
-DEF pocketbone-kicad-rescue:CONN_02X02- P 0 1 Y N 1 F N
+DEF CONN_02X02- P 0 1 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "pocketbone-kicad-rescue:CONN_02X02-" 0 -150 50 H V C CNN
+F1 "CONN_02X02-" 0 -150 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
@@ -277,11 +116,11 @@ X P4 4 250 -50 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:C_Small-
+# C_Small-
 #
-DEF pocketbone-kicad-rescue:C_Small- C 0 10 N N 1 F N
+DEF C_Small- C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "pocketbone-kicad-rescue:C_Small-" 10 -80 50 H V L CNN
+F1 "C_Small-" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -299,11 +138,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:Crystal_Small-
+# Crystal_Small-
 #
-DEF pocketbone-kicad-rescue:Crystal_Small- Y 0 40 N N 1 F N
+DEF Crystal_Small- Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "pocketbone-kicad-rescue:Crystal_Small-" 0 -100 50 H V C CNN
+F1 "Crystal_Small-" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -318,11 +157,11 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:FILTER-
+# FILTER-
 #
-DEF pocketbone-kicad-rescue:FILTER- FB 0 40 Y N 1 F N
+DEF FILTER- FB 0 40 Y N 1 F N
 F0 "FB" 0 150 50 H V C CNN
-F1 "pocketbone-kicad-rescue:FILTER-" 0 -100 50 H V C CNN
+F1 "FILTER-" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -337,11 +176,11 @@ X 2 2 350 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:GND-
+# GND-
 #
-DEF pocketbone-kicad-rescue:GND- #PWR 0 0 Y Y 1 F P
+DEF GND- #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "pocketbone-kicad-rescue:GND-" 0 -150 50 H V C CNN
+F1 "GND-" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -350,11 +189,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:Led_Small-
+# Led_Small-
 #
-DEF pocketbone-kicad-rescue:Led_Small- D 0 10 N N 1 F N
+DEF Led_Small- D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "pocketbone-kicad-rescue:Led_Small-" -175 -100 50 H V L CNN
+F1 "Led_Small-" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -371,11 +210,11 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:OSD3358-
+# OSD3358-
 #
-DEF pocketbone-kicad-rescue:OSD3358- U 0 40 Y Y 12 L N
+DEF OSD3358- U 0 40 Y Y 12 L N
 F0 "U" 200 250 60 H V L CNN
-F1 "pocketbone-kicad-rescue:OSD3358-" 200 150 60 H V L CNN
+F1 "OSD3358-" 200 150 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -794,11 +633,11 @@ X EXTL3B Y20 1300 0 200 L 50 50 12 1 N
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:R-
+# R-
 #
-DEF pocketbone-kicad-rescue:R- R 0 0 N Y 1 F N
+DEF R- R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "pocketbone-kicad-rescue:R-" 0 0 50 V V C CNN
+F1 "R-" 0 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -812,11 +651,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:R_Pack04-
+# R_Pack04-
 #
-DEF pocketbone-kicad-rescue:R_Pack04- RN 0 0 Y N 1 F N
+DEF R_Pack04- RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
-F1 "pocketbone-kicad-rescue:R_Pack04-" 200 0 50 V V C CNN
+F1 "R_Pack04-" 200 0 50 V V C CNN
 F2 "" 275 0 50 V I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -848,11 +687,11 @@ X R1.2 8 -200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:SCHA5B0200-
+# SCHA5B0200-
 #
-DEF pocketbone-kicad-rescue:SCHA5B0200- SOK 0 40 Y Y 1 F N
+DEF SCHA5B0200- SOK 0 40 Y Y 1 F N
 F0 "SOK" -50 500 60 H V C CNN
-F1 "pocketbone-kicad-rescue:SCHA5B0200-" 50 -750 60 H V C CNN
+F1 "SCHA5B0200-" 50 -750 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "http://www.mouser.com/ds/2/15/SCHA-186221.pdf" -100 600 60 H I C CNN
 DRAW
@@ -874,11 +713,11 @@ X CD# 9 -450 -550 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:SN74LVC1G07-
+# SN74LVC1G07-
 #
-DEF pocketbone-kicad-rescue:SN74LVC1G07- U 0 40 Y Y 1 F N
+DEF SN74LVC1G07- U 0 40 Y Y 1 F N
 F0 "U" -250 200 60 H V C CNN
-F1 "pocketbone-kicad-rescue:SN74LVC1G07-" 0 -200 60 H V C CNN
+F1 "SN74LVC1G07-" 0 -200 60 H V C CNN
 F2 "" 30 -100 60 H V C CNN
 F3 "" 30 -100 60 H V C CNN
 DRAW
@@ -896,11 +735,11 @@ X VCC 5 -500 100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:SW_PUSH_SMALL_H-
+# SW_PUSH_SMALL_H-
 #
-DEF pocketbone-kicad-rescue:SW_PUSH_SMALL_H- SW 0 40 N N 1 F N
+DEF SW_PUSH_SMALL_H- SW 0 40 N N 1 F N
 F0 "SW" 80 110 50 H V C CNN
-F1 "pocketbone-kicad-rescue:SW_PUSH_SMALL_H-" 360 -60 50 H V C CNN
+F1 "SW_PUSH_SMALL_H-" 360 -60 50 H V C CNN
 F2 "" 0 200 50 H V C CNN
 F3 "" 0 200 50 H V C CNN
 DRAW
@@ -914,11 +753,11 @@ X 2 2 150 0 50 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:TEST_1P-
+# TEST_1P-
 #
-DEF pocketbone-kicad-rescue:TEST_1P- W 0 30 N N 1 F N
+DEF TEST_1P- W 0 30 N N 1 F N
 F0 "W" 0 270 50 H V C CNN
-F1 "pocketbone-kicad-rescue:TEST_1P-" 0 200 50 H V C CNN
+F1 "TEST_1P-" 0 200 50 H V C CNN
 F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 DRAW
@@ -927,11 +766,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:TPS2051C-
+# TPS2051C-
 #
-DEF pocketbone-kicad-rescue:TPS2051C- U 0 40 Y Y 1 F N
+DEF TPS2051C- U 0 40 Y Y 1 F N
 F0 "U" -200 200 60 H V C CNN
-F1 "pocketbone-kicad-rescue:TPS2051C-" 0 -200 60 H V C CNN
+F1 "TPS2051C-" 0 -200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -944,11 +783,11 @@ X IN 5 -450 100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# pocketbone-kicad-rescue:USB_OTG-RESCUE-pocketbone-kicad-
+# USB_OTG-RESCUE-pocketbone-kicad-
 #
-DEF pocketbone-kicad-rescue:USB_OTG-RESCUE-pocketbone-kicad- P 0 40 Y Y 1 F N
+DEF USB_OTG-RESCUE-pocketbone-kicad- P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "pocketbone-kicad-rescue:USB_OTG-RESCUE-pocketbone-kicad-" 0 200 50 H V C CNN
+F1 "USB_OTG-RESCUE-pocketbone-kicad-" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -967,141 +806,6 @@ X D+ 3 0 -300 150 U 50 50 1 1 P
 X ID 4 100 -300 150 U 50 50 1 1 W
 X GND 5 200 -300 150 U 50 50 1 1 W
 X shield 6 400 100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power:+3.3V
-#
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+3V8
-#
-DEF power:+3V8 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V8" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V8 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+5V
-#
-DEF power:+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+VDC
-#
-DEF power:+VDC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -100 50 H I C CNN
-F1 "power:+VDC" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 125 75 0 1 10 N
-P 2 0 1 20 -45 125 45 125 N
-P 2 0 1 0 0 0 0 50 N
-P 2 0 1 20 0 80 0 170 N
-X +VDC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GND
-#
-DEF power:GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# symbols2:LTM8053
-#
-DEF symbols2:LTM8053 U 0 40 Y Y 1 F N
-F0 "U" -2150 -1750 50 H V C CNN
-F1 "symbols2:LTM8053" -2150 -1750 50 H V C CNN
-F2 "" -2150 -1750 50 H I C CNN
-F3 "" -2150 -1750 50 H I C CNN
-DRAW
-S -850 1900 1800 100 0 1 0 N
-X GND A1 -500 0 100 U 50 50 1 1 I
-X BIAS A2 -950 1350 100 R 50 50 1 1 I
-X PG A3 1900 1600 100 L 50 50 1 1 I
-X SHARE A4 -700 0 100 U 50 50 1 1 I
-X RT A5 -950 500 100 R 50 50 1 1 I
-X GND A6 -400 0 100 U 50 50 1 1 I
-X FB B1 -950 1550 100 R 50 50 1 1 I
-X AUX B2 -950 1450 100 R 50 50 1 1 I
-X GND B3 -300 0 100 U 50 50 1 1 I
-X SYNC B4 -950 1650 100 R 50 50 1 1 I
-X TR/SS B5 -950 1800 100 R 50 50 1 1 I
-X RUN B6 -950 700 100 R 50 50 1 1 I
-X GND C1 -200 0 100 U 50 50 1 1 I
-X GND C2 -100 0 100 U 50 50 1 1 I
-X VIN C3 -950 850 100 R 50 50 1 1 I
-X VIN C4 -950 950 100 R 50 50 1 1 I
-X VIN C5 -950 1050 100 R 50 50 1 1 I
-X VIN C6 -950 1150 100 R 50 50 1 1 I
-X GND D1 0 0 100 U 50 50 1 1 I
-X GND D2 100 0 100 U 50 50 1 1 I
-X GND D3 200 0 100 U 50 50 1 1 I
-X GND D4 300 0 100 U 50 50 1 1 I
-X GND D5 400 0 100 U 50 50 1 1 I
-X GND D6 500 0 100 U 50 50 1 1 I
-X GND E1 600 0 100 U 50 50 1 1 I
-X GND E2 700 0 100 U 50 50 1 1 I
-X GND E3 800 0 100 U 50 50 1 1 I
-X GND E4 900 0 100 U 50 50 1 1 I
-X GND E5 1000 0 100 U 50 50 1 1 I
-X GND E6 1100 0 100 U 50 50 1 1 I
-X GND F1 1200 0 100 U 50 50 1 1 I
-X GND F2 1300 0 100 U 50 50 1 1 I
-X GND F3 1400 0 100 U 50 50 1 1 I
-X GND F4 1500 0 100 U 50 50 1 1 I
-X GND F5 1600 0 100 U 50 50 1 1 I
-X GND F6 1700 0 100 U 50 50 1 1 I
-X VOUT G1 1900 1450 100 L 50 50 1 1 I
-X VOUT G2 1900 1350 100 L 50 50 1 1 I
-X VOUT G3 1900 1250 100 L 50 50 1 1 I
-X VOUT G4 1900 1150 100 L 50 50 1 1 I
-X VOUT G5 1900 1050 100 L 50 50 1 1 I
-X VOUT G6 1900 950 100 L 50 50 1 1 I
-X VOUT H1 1900 850 100 L 50 50 1 1 I
-X VOUT H2 1900 750 100 L 50 50 1 1 I
-X VOUT H3 1900 650 100 L 50 50 1 1 I
-X VOUT H4 1900 550 100 L 50 50 1 1 I
-X VOUT H5 1900 450 100 L 50 50 1 1 I
-X VOUT H6 1900 350 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
